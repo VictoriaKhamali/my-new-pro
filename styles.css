@@ -1,0 +1,122 @@
+body {background: radial-gradient(circle at 0.7% 1%, rgb(215, 248, 247) 0%, rgb(102, 188, 239) 100.2%);}
+.box{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+width: 400px;
+height: 80px;
+border: 1px solid black;
+margin-left: 100px;
+border-color: aqua;
+border-radius: 10px;
+box-shadow: 10px 5px 5px aqua;
+
+}
+#box{
+     display: block;
+    margin: auto;
+    margin-top: 50px;
+height: 400px;
+margin-left: 180px;
+border: 1px solid black;
+    width: 400px;
+    border-color: aqua;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px aqua;
+    
+}
+.col { margin: 4px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+opacity: 1.0;
+
+}
+.col:hover {opacity: 0.3;
+    cursor: pointer;
+    background-color: aqua;
+    transition: 0.5s;
+}
+.col.m { color:  rgb(64, 189, 243);
+    border: 1px solid white; padding: 10px;
+border-radius: 20px;
+}
+.col.T {border: 1px solid white; padding: 10px;
+border-radius: 20px; color:rgb(64, 189, 243);}
+.col.w {border: 1px solid white; padding: 10px;
+border-radius: 20px;
+    color:   rgb(64, 189, 243);}
+.col.t {border: 1px solid white; padding: 10px;
+border-radius: 20px;
+    color: rgb(64, 189, 243);}
+.col.f {border: 1px solid white; padding: 10px;
+border-radius: 20px;
+    color: rgb(64, 189, 243);}
+.col.S {border: 1px solid white; padding: 10px;
+border-radius: 20px;
+    color: rgb(64, 189, 243);}
+.col.s {border: 1px solid white; padding: 10px;
+border-radius: 20px;
+    color: rgb(64, 189, 243);}
+
+.c {display:block ;
+    margin: auto;
+    padding: 8px;
+margin-top: -10px; 
+color: rgb(181, 8, 8);
+font-size: larger;}
+
+h1 {display: block;
+margin: auto;
+margin-left: 30px;
+margin-top: 20px;
+color: white;
+
+}
+h2 {display: block;
+margin: auto;
+margin-left: 200px;
+margin-top: -40px;
+}
+h3{display: block;
+margin: auto;
+margin-left: 30px;
+font-size: small;}
+h4{display: block;
+margin: auto;
+margin-left:280px;
+margin-top: 100px;
+font-size: small;}
+
+img {display: block;
+margin: auto;
+width: 150px;
+height: 150px;
+margin-top: -150px;
+margin-left: 20px;
+border: 1px solid rgb(87, 87, 255);
+border-radius: 100px;
+opacity: 0.5;
+}
+img:hover{opacity: 1.0;
+transition:1s;
+}
+.search input{font-size: 20px;
+border-radius: 100px;
+background: rgb(0, 115, 255);
+display: block;
+margin: auto;
+width: 250px;
+margin-top: 20px;
+opacity: 1.0;
+} 
+.search :hover{opacity: 0.5;
+    background-color: white;
+    transition: 0.2s;
+   
+}
+.submit input{color: rgb(193, 205, 217);
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(64, 189, 243);
+border-radius: 10px;
+}
+.submit:hover{background-color: white;}
